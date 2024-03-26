@@ -5,7 +5,7 @@ import { StyleSheet, Text, View , TouchableOpacity, Image} from 'react-native';
 export default function App() {
   //按鈕功能
   const [count, setCount] = useState(0);
-  const [changePicture, setChangePicture] = useState('haita_img');
+  const [changePicture, setChangePicture] = useState(true);
 
   const imageChange = () => {
     //console.log('這是圖片');
